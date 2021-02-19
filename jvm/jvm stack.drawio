@@ -1,1 +1,76 @@
-<mxfile host="app.diagrams.net" modified="2021-02-19T12:21:44.381Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.146 Safari/537.36" version="14.4.2" etag="1F-ELCGQ3UhxXNUL7uKj" type="github"><diagram id="2-xbtvVCxzTjt74-FmUU">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-02-19T13:05:05.788Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.146 Safari/537.36" etag="3pU0xoL7GUZ524KwJ6s0" version="14.4.2" type="github">
+  <diagram id="2-xbtvVCxzTjt74-FmUU" name="Page-1">
+    <mxGraphModel dx="1038" dy="511" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="-9JynYwgXRu6HP81hHen-24" value="虚拟机栈（JVM Stack）" style="swimlane;html=1;startSize=40;horizontal=1;containerType=tree;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};gradientColor=#ffffff;fontSize=30;" vertex="1" parent="1">
+          <mxGeometry x="210" y="30" width="340" height="510" as="geometry" />
+        </mxCell>
+        <mxCell id="-9JynYwgXRu6HP81hHen-59" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;.&lt;br style=&quot;font-size: 20px;&quot;&gt;.&lt;br style=&quot;font-size: 20px;&quot;&gt;.&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=#ffffff;strokeColor=none;fontSize=20;" vertex="1" parent="-9JynYwgXRu6HP81hHen-24">
+          <mxGeometry x="110" y="50" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="-9JynYwgXRu6HP81hHen-60" value="Method1()" style="swimlane;html=1;startSize=20;horizontal=1;containerType=tree;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};gradientColor=#ffffff;fontSize=20;" vertex="1" parent="-9JynYwgXRu6HP81hHen-24">
+          <mxGeometry x="95" y="150" width="150" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="-9JynYwgXRu6HP81hHen-30" value="" style="shape=table;html=1;whiteSpace=wrap;startSize=0;container=1;collapsible=0;childLayout=tableLayout;gradientColor=#ffffff;fontSize=15;" vertex="1" parent="-9JynYwgXRu6HP81hHen-60">
+          <mxGeometry y="20" width="150" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="-9JynYwgXRu6HP81hHen-31" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="-9JynYwgXRu6HP81hHen-30">
+          <mxGeometry width="150" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="-9JynYwgXRu6HP81hHen-32" value="局部变量表" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;fontSize=20;" vertex="1" parent="-9JynYwgXRu6HP81hHen-31">
+          <mxGeometry width="150" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="-9JynYwgXRu6HP81hHen-35" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="-9JynYwgXRu6HP81hHen-30">
+          <mxGeometry y="35" width="150" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="-9JynYwgXRu6HP81hHen-36" value="操作数栈" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;fontSize=20;" vertex="1" parent="-9JynYwgXRu6HP81hHen-35">
+          <mxGeometry width="150" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="-9JynYwgXRu6HP81hHen-43" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="-9JynYwgXRu6HP81hHen-30">
+          <mxGeometry y="68" width="150" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="-9JynYwgXRu6HP81hHen-44" value="&lt;font style=&quot;font-size: 20px&quot;&gt;动态连接&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" vertex="1" parent="-9JynYwgXRu6HP81hHen-43">
+          <mxGeometry width="150" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="-9JynYwgXRu6HP81hHen-47" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="-9JynYwgXRu6HP81hHen-30">
+          <mxGeometry y="107" width="150" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="-9JynYwgXRu6HP81hHen-48" value="方法返回地址" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;fontSize=20;" vertex="1" parent="-9JynYwgXRu6HP81hHen-47">
+          <mxGeometry width="150" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="-9JynYwgXRu6HP81hHen-76" value="Method2()" style="swimlane;html=1;startSize=20;horizontal=1;containerType=tree;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};gradientColor=#ffffff;fontSize=20;" vertex="1" parent="-9JynYwgXRu6HP81hHen-24">
+          <mxGeometry x="95" y="340" width="150" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="-9JynYwgXRu6HP81hHen-77" value="" style="shape=table;html=1;whiteSpace=wrap;startSize=0;container=1;collapsible=0;childLayout=tableLayout;gradientColor=#ffffff;fontSize=15;" vertex="1" parent="-9JynYwgXRu6HP81hHen-76">
+          <mxGeometry y="20" width="150" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="-9JynYwgXRu6HP81hHen-78" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="-9JynYwgXRu6HP81hHen-77">
+          <mxGeometry width="150" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="-9JynYwgXRu6HP81hHen-79" value="局部变量表" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;fontSize=20;" vertex="1" parent="-9JynYwgXRu6HP81hHen-78">
+          <mxGeometry width="150" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="-9JynYwgXRu6HP81hHen-80" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="-9JynYwgXRu6HP81hHen-77">
+          <mxGeometry y="35" width="150" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="-9JynYwgXRu6HP81hHen-81" value="操作数栈" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;fontSize=20;" vertex="1" parent="-9JynYwgXRu6HP81hHen-80">
+          <mxGeometry width="150" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="-9JynYwgXRu6HP81hHen-82" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="-9JynYwgXRu6HP81hHen-77">
+          <mxGeometry y="68" width="150" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="-9JynYwgXRu6HP81hHen-83" value="&lt;font style=&quot;font-size: 20px&quot;&gt;动态连接&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" vertex="1" parent="-9JynYwgXRu6HP81hHen-82">
+          <mxGeometry width="150" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="-9JynYwgXRu6HP81hHen-84" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="-9JynYwgXRu6HP81hHen-77">
+          <mxGeometry y="107" width="150" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="-9JynYwgXRu6HP81hHen-85" value="方法返回地址" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;fontSize=20;" vertex="1" parent="-9JynYwgXRu6HP81hHen-84">
+          <mxGeometry width="150" height="33" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
