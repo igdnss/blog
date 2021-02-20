@@ -1,1 +1,36 @@
-<mxfile host="app.diagrams.net" modified="2021-02-20T18:53:23.419Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.146 Safari/537.36" version="14.4.2" etag="uR8daBr7tDZXxx5Zw7Y0" type="github"><diagram id="gFgsqIMMcTmuyoquSqHP">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-02-20T18:54:44.339Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.146 Safari/537.36" etag="X08xAM3drr6JY3-VFNj6" version="14.4.2" type="github">
+  <diagram id="gFgsqIMMcTmuyoquSqHP" name="Page-1">
+    <mxGraphModel dx="1038" dy="511" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="H32aFFy1Qe1fv2tfO5y2-1" value="运行时数据区" style="swimlane;html=1;startSize=70;horizontal=1;containerType=tree;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fontSize=30;" vertex="1" parent="1">
+          <mxGeometry x="40" y="270" width="720" height="390" as="geometry">
+            <mxRectangle x="190" y="320" width="100" height="20" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H32aFFy1Qe1fv2tfO5y2-2" value="虚拟机栈&lt;br style=&quot;font-size: 20px;&quot;&gt;VM Stack" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=#ffa500;fillColor=#ffcd28;strokeColor=#d79b00;fontSize=20;" vertex="1" parent="H32aFFy1Qe1fv2tfO5y2-1">
+          <mxGeometry x="10" y="100" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="H32aFFy1Qe1fv2tfO5y2-3" value="本地方法栈&lt;br style=&quot;font-size: 20px;&quot;&gt;Native Method Stack" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=#ffa500;fillColor=#ffcd28;strokeColor=#d79b00;fontSize=20;" vertex="1" parent="H32aFFy1Qe1fv2tfO5y2-1">
+          <mxGeometry x="220" y="100" width="240" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="H32aFFy1Qe1fv2tfO5y2-4" value="方法区&lt;br style=&quot;font-size: 20px;&quot;&gt;Method Area" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;fontSize=20;" vertex="1" parent="H32aFFy1Qe1fv2tfO5y2-1">
+          <mxGeometry x="480" y="100" width="230" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="H32aFFy1Qe1fv2tfO5y2-5" value="堆&lt;br style=&quot;font-size: 20px;&quot;&gt;Heap" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;fontSize=20;" vertex="1" parent="H32aFFy1Qe1fv2tfO5y2-1">
+          <mxGeometry x="10" y="265" width="450" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="H32aFFy1Qe1fv2tfO5y2-6" value="程序计数器&lt;br style=&quot;font-size: 20px;&quot;&gt;Program Counter Register (PC)" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=#ffa500;fillColor=#ffcd28;strokeColor=#d79b00;fontSize=20;" vertex="1" parent="H32aFFy1Qe1fv2tfO5y2-1">
+          <mxGeometry x="480" y="265" width="230" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="H32aFFy1Qe1fv2tfO5y2-8" value="" style="shape=flexArrow;endArrow=classic;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="H32aFFy1Qe1fv2tfO5y2-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="100" y="195" as="sourcePoint" />
+            <mxPoint x="99.5" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
