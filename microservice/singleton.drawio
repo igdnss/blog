@@ -1,1 +1,22 @@
-<mxfile host="app.diagrams.net" modified="2021-02-23T04:59:40.690Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" version="14.3.2" etag="hR74MaKqkEzaQZMsyB_9" type="github"><diagram id="-vC-sl27p_eKLjV6r9Zl">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-02-23T05:04:26.195Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="Ih_TCW10AruUCv4TG1G8" version="14.3.2" type="github">
+  <diagram id="-vC-sl27p_eKLjV6r9Zl" name="Page-1">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="uCrvta5IW9NzkopZKzsP-1" value="&lt;font style=&quot;font-size: 30px&quot;&gt;单体应用架构&amp;nbsp;&lt;/font&gt;" style="swimlane;html=1;startSize=40;horizontal=1;containerType=tree;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="1">
+          <mxGeometry x="220" y="110" width="220" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="uCrvta5IW9NzkopZKzsP-7" value="用户管理" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="uCrvta5IW9NzkopZKzsP-1">
+          <mxGeometry x="50" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uCrvta5IW9NzkopZKzsP-8" value="商品管理" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="uCrvta5IW9NzkopZKzsP-1">
+          <mxGeometry x="50" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uCrvta5IW9NzkopZKzsP-9" value="订单管理" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="uCrvta5IW9NzkopZKzsP-1">
+          <mxGeometry x="50" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
