@@ -1,1 +1,90 @@
-<mxfile host="app.diagrams.net" modified="2021-03-01T15:31:08.630Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.146 Safari/537.36" version="14.4.2" etag="jOgEYaciqFGn0CaOFpHj" type="github"><diagram id="o0SM5SMyc1mI_aixQ1L5">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-03-01T16:06:45.013Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.146 Safari/537.36" etag="g7ViY6KXMnlo2eFOS8P1" version="14.4.2" type="github">
+  <diagram id="o0SM5SMyc1mI_aixQ1L5" name="Page-1">
+    <mxGraphModel dx="1038" dy="560" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="gy_wheFXdakzCj5BAdgs-1" value="注册中心" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="300" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gy_wheFXdakzCj5BAdgs-2" value="服务消费者" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="180" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gy_wheFXdakzCj5BAdgs-3" value="服务提供者" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="440" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gy_wheFXdakzCj5BAdgs-4" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="gy_wheFXdakzCj5BAdgs-3" target="gy_wheFXdakzCj5BAdgs-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="350" as="sourcePoint" />
+            <mxPoint x="440" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gy_wheFXdakzCj5BAdgs-5" value="1,启动时向注册中心注册服务" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;" vertex="1" connectable="0" parent="gy_wheFXdakzCj5BAdgs-4">
+          <mxGeometry x="-0.1537" relative="1" as="geometry">
+            <mxPoint x="78.97" y="-13.66" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gy_wheFXdakzCj5BAdgs-6" value="2,启动时获取所有的服务" style="endArrow=classic;html=1;fontSize=18;" edge="1" parent="1">
+          <mxGeometry x="-0.6345" y="52" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="360" as="sourcePoint" />
+            <mxPoint x="360" y="250" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gy_wheFXdakzCj5BAdgs-9" value="&lt;font style=&quot;font-size: 20px&quot;&gt;注册成功的微服务&lt;/font&gt;" style="swimlane;html=1;startSize=30;horizontal=1;containerType=tree;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="1">
+          <mxGeometry x="430" y="50" width="340" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="gy_wheFXdakzCj5BAdgs-8" value="&lt;font style=&quot;font-size: 15px&quot;&gt;A：127.0.0.1:9001/&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="gy_wheFXdakzCj5BAdgs-9">
+          <mxGeometry x="10" y="50" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gy_wheFXdakzCj5BAdgs-16" value="B：127.0.0.1:9002/" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="gy_wheFXdakzCj5BAdgs-9">
+          <mxGeometry x="187" y="50" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gy_wheFXdakzCj5BAdgs-17" value="" style="endArrow=none;html=1;fontSize=18;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="180" as="sourcePoint" />
+            <mxPoint x="400" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gy_wheFXdakzCj5BAdgs-18" value="&lt;font style=&quot;font-size: 20px&quot;&gt;获取成功的微服务&lt;/font&gt;" style="swimlane;html=1;startSize=30;horizontal=1;containerType=tree;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="1">
+          <mxGeometry y="475" width="340" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="gy_wheFXdakzCj5BAdgs-19" value="&lt;font style=&quot;font-size: 15px&quot;&gt;A：127.0.0.1:9001/&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="gy_wheFXdakzCj5BAdgs-18">
+          <mxGeometry x="10" y="50" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gy_wheFXdakzCj5BAdgs-20" value="B：127.0.0.1:9002/" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="gy_wheFXdakzCj5BAdgs-18">
+          <mxGeometry x="187" y="50" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gy_wheFXdakzCj5BAdgs-21" value="" style="endArrow=none;html=1;fontSize=18;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="475" as="sourcePoint" />
+            <mxPoint x="230" y="425" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gy_wheFXdakzCj5BAdgs-23" value="A，服务注册/获取" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="80" y="50" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gy_wheFXdakzCj5BAdgs-24" value="B，配置（推送到服务提供者/消费者）" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="93" y="80" width="307" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gy_wheFXdakzCj5BAdgs-25" value="C，健康检查（心跳）" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="78" y="109" width="205" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gy_wheFXdakzCj5BAdgs-26" value="" style="endArrow=classic;html=1;fontSize=18;dashed=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="390" as="sourcePoint" />
+            <mxPoint x="430" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gy_wheFXdakzCj5BAdgs-27" value="3，调用服务" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=18;" vertex="1" connectable="0" parent="gy_wheFXdakzCj5BAdgs-26">
+          <mxGeometry x="-0.33" y="-1" relative="1" as="geometry">
+            <mxPoint x="10" y="-21" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gy_wheFXdakzCj5BAdgs-28" value="&lt;font style=&quot;font-size: 20px&quot;&gt;功能&lt;/font&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="80" y="10" width="67" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
