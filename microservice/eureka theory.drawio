@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-02T12:30:04.903Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.146 Safari/537.36" etag="lfqS92qEcKtbwfS6nZ9y" version="14.4.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-02T12:30:21.672Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.146 Safari/537.36" etag="QdQukoWczvgOlm-giRYA" version="14.4.2" type="github">
   <diagram id="SMlNA8TWrgRxaHDRVozD" name="Page-1">
     <mxGraphModel dx="1038" dy="511" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -57,7 +57,7 @@
         </mxCell>
         <mxCell id="Jsfrg6cCLuTZJZ_JC_Oj-18" value="1,注册实例&lt;br&gt;2，每30秒，向server发送心中" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;" vertex="1" connectable="0" parent="Jsfrg6cCLuTZJZ_JC_Oj-15">
           <mxGeometry x="0.1668" y="2" relative="1" as="geometry">
-            <mxPoint x="155.04" y="-3.51" as="offset" />
+            <mxPoint x="158.04" y="-3.51" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Jsfrg6cCLuTZJZ_JC_Oj-17" value="拉取所有的注册信息" style="endArrow=classic;html=1;fontSize=20;exitX=0.453;exitY=-0.027;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.424;entryY=1.02;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Jsfrg6cCLuTZJZ_JC_Oj-2" target="Jsfrg6cCLuTZJZ_JC_Oj-12">
