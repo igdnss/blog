@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-02T12:30:21.672Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.146 Safari/537.36" etag="QdQukoWczvgOlm-giRYA" version="14.4.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-02T12:33:31.080Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.146 Safari/537.36" etag="Md6gShd1t9ln0YzWx0M1" version="14.4.2" type="github">
   <diagram id="SMlNA8TWrgRxaHDRVozD" name="Page-1">
     <mxGraphModel dx="1038" dy="511" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -83,6 +83,17 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="170" y="350" as="sourcePoint" />
             <mxPoint x="220" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Jsfrg6cCLuTZJZ_JC_Oj-23" value="" style="endArrow=classic;html=1;fontSize=20;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" target="Jsfrg6cCLuTZJZ_JC_Oj-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="270" as="sourcePoint" />
+            <mxPoint x="350" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Jsfrg6cCLuTZJZ_JC_Oj-24" value="调用服务" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;" vertex="1" connectable="0" parent="Jsfrg6cCLuTZJZ_JC_Oj-23">
+          <mxGeometry x="-0.186" y="1" relative="1" as="geometry">
+            <mxPoint x="9" y="-19" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
